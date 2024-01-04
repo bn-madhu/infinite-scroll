@@ -1,13 +1,3 @@
 <template>
-  <Posts />
+  <h1>Add/Start project</h1>
 </template>
-
-<script>
-  import Posts from '../components/Posts.vue'
-
-  export default{
-    components:{
-      Posts
-    }
-  }
-</script>
