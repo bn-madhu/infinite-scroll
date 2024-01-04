@@ -32,7 +32,6 @@
       showUser(data){
         // this.titles = [...this.titles, ...data];
         this.titles.push(...data)
-        // console.log(this.titles);
       },
       async scrollBottom(e){
         let cardContainerPosition = document.querySelector('.card-container').getBoundingClientRect();
